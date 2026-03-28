@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0.99 0 0;
+  --foreground: 0.22 0.02 240;
+  --card: 0.99 0 0;
+  --card-foreground: 0.22 0.02 240;
+  --popover: 0.99 0 0;
+  --popover-foreground: 0.22 0.02 240;
+  --primary: 0.55 0.09 198;
+  --primary-foreground: 0.99 0 0;
+  --secondary: 0.95 0.025 198;
+  --secondary-foreground: 0.47 0.09 198;
+  --muted: 0.97 0.005 240;
+  --muted-foreground: 0.52 0.01 240;
+  --accent: 0.92 0.035 198;
+  --accent-foreground: 0.47 0.09 198;
+  --destructive: 0.55 0.2 25;
+  --destructive-foreground: 0.99 0 0;
+  --border: 0.92 0.005 240;
+  --input: 0.92 0.005 240;
+  --ring: 0.55 0.09 198;
+  --radius: 0.75rem;
+  --chart-1: 0.55 0.09 198;
+  --chart-2: 0.47 0.09 198;
+  --chart-3: 0.82 0.14 82;
+  --chart-4: 0.65 0.12 198;
+  --chart-5: 0.72 0.09 198;
+  --sidebar: 0.99 0 0;
+  --sidebar-foreground: 0.22 0.02 240;
+  --sidebar-primary: 0.55 0.09 198;
+  --sidebar-primary-foreground: 0.99 0 0;
+  --sidebar-accent: 0.95 0.025 198;
+  --sidebar-accent-foreground: 0.47 0.09 198;
+  --sidebar-border: 0.92 0.005 240;
+  --sidebar-ring: 0.55 0.09 198;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: oklch(0.22 0.02 240);
+  background: oklch(0.99 0 0);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.signature {
+  font-family: "Brush Script MT", "Parisienne", cursive;
+  font-size: 2rem;
+  color: oklch(0.47 0.09 198);
+}
